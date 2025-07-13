@@ -111,7 +111,7 @@ async function render() {
 
   const canvasOptions = { enableMultiLayer: MultiLayers };
 
-  canvas = createGraphCanvas($container, 500, 500, Renderer, canvasOptions);
+  canvas = createGraphCanvas($container, 1800, 900, Renderer, canvasOptions);
 
   canvas.getLayer().addEventListener(CanvasEvent.AFTER_RENDER, statsListener);
 

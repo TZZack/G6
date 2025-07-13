@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "dist",
+    "declaration": true,
+    "jsx": "preserve",
+    "baseUrl": ".",
+    "paths": {
+      "@antv/g6": ["../g6/src/index.ts"],
+      "@antv/g6-extension-vue": ["./src/index.ts"],
+      "vue": ["node_modules/vue/dist/vue.d.ts"]
+    }
+  },
+  "include": ["src/**/*", "__tests__/**/*"],
+  "exclude": ["node_modules"]
+}
